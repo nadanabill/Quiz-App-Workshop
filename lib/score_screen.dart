@@ -10,6 +10,7 @@ class ScoreScreen extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.network(
                   'https://cdn-icons-png.flaticon.com/256/6225/6225308.png',
